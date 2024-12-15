@@ -1,0 +1,6 @@
+if a < b then {proceed only if both inputs are positive}
+     write b
+end
+if b < a then
+     write a
+end

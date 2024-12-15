@@ -1,0 +1,9 @@
+read x; {input an integer}
+if 0 < x then {don’t compute if x <= 0}
+sum := 0;
+repeat
+sum := sum + x;
+x := x - 1
+until x = 0;
+write sum {output sum of integers from 1 to x}
+end

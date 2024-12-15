@@ -1,0 +1,14 @@
+read a;
+read b; {input two integers}
+if 0 < a then {proceed only if both inputs are positive}
+if 0 < b then
+repeat
+if b < a then
+  a := a - b
+else
+  b := b - a
+end
+until a = b
+end
+end;
+write a {output GCD of the two numbers}
